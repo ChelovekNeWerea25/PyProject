@@ -1,3 +1,2 @@
-print("Jena TOp")
-print("Согл")
-#pooooooooon
+class Student:
+    print("Hello")
