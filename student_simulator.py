@@ -48,6 +48,12 @@ class Student:
                 self.sleep()
         else:
             self.russia()
-        self.check()
-        self.dayoff()
+
+        if self.life==True:
+            self.dayoff()
+            self.check()
 human=Student()
+for i in range(10):
+    human.simmulate()
+    if human.life==False:
+        break
