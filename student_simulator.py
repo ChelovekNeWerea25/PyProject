@@ -1,4 +1,5 @@
 from time import sleep
+import random
 
 
 class Student:
@@ -35,4 +36,18 @@ class Student:
             self.life=False
     def dayoff(self):
         print(f"У {self.name} радість = {self.radist},а прогресс {self.pregress}")
+    def simmulate(self):
+        rnd=random.randint(1,50)
+        if(rnd<=39):
+            rndd=random.randint(1,3)
+            if rndd==1:
+                self.study()
+            if rndd==2:
+                self.chill()
+            if rndd==3:
+                self.sleep()
+        else:
+            self.russia()
+        self.check()
+        self.dayoff()
 human=Student()
