@@ -5,3 +5,4 @@ class Human:
         self.raiting=raiting
     def print_student(self):
         print(f"В учня {self.dz} просрочок та {self.raiting} місце в рейтингу")
+Б
