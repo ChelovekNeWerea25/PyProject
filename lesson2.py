@@ -11,3 +11,8 @@ class Auto:
     def add_passenger(self, *args):
         for passenger in args:
             self.passengers.append(passenger)
+    def print_passenger(self):
+        if(self.passengers):
+            print(f"В машині {self.brand} є такі пасажири:")
+            for passenger in self.passengers:
+                print(passenger.name)
