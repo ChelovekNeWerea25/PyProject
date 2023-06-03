@@ -27,7 +27,13 @@ class Zenya(Human):
     def prntzenya(self):
         print(f"Вчитель веде групу {self.group} і поставив середню оцінку {self.mark}")
 
-
+def test():
+    h1 = Student(0, 3)
+    h1.print_student()
+    h2 = Dima("баскетбол")
+    h2.printing()
+    h3 = Zenya("C2912", "Н/а")
+    h3.prntzenya()
 h1 = Student(0, 3)
 h1.print_student()
 h2 = Dima("баскетбол")

@@ -1,7 +1,4 @@
 class duck:
-    def __init__(self):
-        self.name = "КРЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯ"
-
     def sound(self):
         print("Kra")
 
@@ -12,3 +9,9 @@ class Human:
 
     def sound(self):
         print('Robit dz')
+
+
+a1 = duck()
+h = Human("Ivan")
+a1.sound()
+h.sound()
